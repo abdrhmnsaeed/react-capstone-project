@@ -1,0 +1,122 @@
+:root {
+  --FSh1: 4rem;
+  --FSh2: 2.8rem;
+  --FSh3: 2rem;
+  --FSh4: 1.6rem;
+  --FSP: 1.5rem;
+  --FSLi: 1.4rem;
+  --FSbutton: 1.3rem;
+  --colorWhite: white;
+  --colorBlack: black;
+  --freqBlue: rgb(46, 144, 251);
+}
+
+.ntcontainer {
+  height: 36rem;
+  width: 31%;
+  min-width: 34rem;
+  display: flex;
+  flex-flow: column nowrap;
+  border-radius: 5px;
+}
+
+.firstSec {
+  border-radius: 5px 5px 0 0;
+  background-color: rgb(152, 220, 198);
+  flex: 1;
+  padding: 1.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.firstSec div {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.5rem;
+}
+
+.pmarginB {
+  width: fit-content;
+  margin-bottom: 36%;
+  border-radius: 50px;
+  padding: 0.2rem 1.2rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  color: var(--colorBlack);
+  background-color: white;
+  gap: 1rem;
+}
+
+.firstSec .coachin {
+  background-color: #dc6803;
+  width: fit-content;
+  border-radius: 50px;
+  padding: 0.2rem 1.2rem;
+  padding-bottom: 0.5rem;
+  color: var(--colorWhite);
+}
+
+.secondSec {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e7e7ea;
+  border-radius: 0 0 5px 5px;
+}
+
+.secondSec .darknBold {
+  color: var(--colorBlack);
+  font-weight: 700;
+}
+.secondSec .dark {
+  color: var(--colorBlack);
+}
+
+.genericCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.noBreak .arrowright {
+  width: 2rem;
+}
+
+.calend {
+  width: 1.4rem;
+}
+
+.badge {
+  width: 1.8rem;
+  color: #0caf5c;
+}
+p {
+  font-size: var(--FSP);
+}
+
+h3 {
+  font-size: var(--FSh3);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.h3span {
+  padding-bottom: 0.5rem;
+}
+
+.arrowp,
+.heart {
+  width: 2rem;
+  color: grey;
+}
+
+.star {
+  width: 2rem;
+  color: goldenrod;
+}

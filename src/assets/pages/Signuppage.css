@@ -1,0 +1,298 @@
+:root {
+  --FSh1: 4rem;
+  --FSh2: 2.8rem;
+  --FSh3: 2rem;
+  --FSh4: 1.6rem;
+  --FSP: 1.5rem;
+  --FSLi: 1.4rem;
+  --FSbutton: 1.3rem;
+  --colorWhite: white;
+  --colorBlack: black;
+  --freqBlue: rgb(46, 144, 251);
+}
+body {
+  background-color: white;
+}
+
+.signinoverall {
+  background-color: rgb(243, 244, 248);
+  height: 100vh;
+  width: 100%;
+  color: var(--colorBlack);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signincontain {
+  position: relative;
+  width: 55%;
+  margin: auto;
+  padding: 1.5rem;
+  background-color: var(--colorWhite);
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+.signincontainnn {
+  position: relative;
+  width: 58%;
+  margin: auto;
+  padding: 1.5rem;
+  background-color: var(--colorWhite);
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+}
+/*  */
+.signupfig {
+  width: 47%;
+  min-width: 30rem;
+  border-radius: 5px;
+}
+.signupfigg {
+  width: 49%;
+  min-width: 30rem;
+  border-radius: 5px;
+}
+
+.signupfig img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+/*  */
+.signupR {
+  width: 46%;
+  min-width: 28rem;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.9rem;
+}
+.signupRR {
+  width: 48%;
+  min-width: 28rem;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.9rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .signincontain {
+    width: 100%;
+  }
+  .signupfig {
+    order: 2;
+    margin: 2rem 0;
+    min-width: 31.5rem;
+  }
+  .signupR {
+    margin: 2rem 0;
+    order: 1;
+    min-width: 31.5rem;
+  }
+}
+
+/*For register page */
+.radioUserAgt {
+  align-self: stretch;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.radioUserAgt > div {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
+
+.radioUserAgt > div:hover {
+  color: var(--freqBlue);
+}
+
+.signupR .signuplogo {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: var(--FSh4);
+  font-weight: 700;
+}
+.signupR .signuplogo img {
+  width: 100%;
+  height: auto;
+}
+
+.signupR p {
+  text-align: center;
+  font-size: var(--FSLi);
+}
+
+span.freqBlR {
+  color: var(--freqBlue);
+  font-weight: 600;
+}
+span.freqBlR .styleLink {
+  text-decoration: none;
+}
+
+.styleLink button {
+  text-decoration: none;
+}
+
+span.freqBlR:hover {
+  cursor: pointer;
+  filter: brightness(0.9);
+}
+
+.signupR form {
+  align-self: stretch;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+  padding: 0.5rem 0;
+}
+
+.signupR form h4 {
+  font-weight: 400;
+  font-size: var(--FSbutton);
+}
+
+.signupR form .signuppass {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: left;
+  gap: 0.2rem;
+}
+
+.signupstar {
+  font-size: 0.5rem;
+}
+.signupimp {
+  border-radius: 5px;
+  border: 1px solid silver;
+  display: flex;
+  align-items: center;
+  padding: 0.7rem;
+  gap: 0.7rem;
+  background-color: var(--colorWhite);
+}
+
+.signupimp .supme1 {
+  margin-top: 0.2rem;
+  font-size: 1.2rem;
+  color: grey;
+}
+
+.signupimp .supme11 {
+  display: none;
+}
+
+.signupimp input {
+  outline: none;
+  border: none;
+  background-color: var(--colorWhite);
+  color: var(--colorBlack);
+  font-size: 1.2rem;
+  flex: 1;
+}
+.signupimp input::placeholder {
+  font-size: 1.2rem;
+  color: grey;
+}
+
+.signupR .signupforgot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.signupR .signupforgot p {
+  font-size: 1.2rem;
+  color: red;
+}
+.signupR .signupforgot > div {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.signupR .signupforgot > div p {
+  color: grey;
+}
+
+.signupR .buttsign {
+  background-color: white;
+}
+.signupR .buttsign button {
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0.8rem 0;
+  background-color: var(--freqBlue);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--colorWhite);
+}
+
+.signupR .buttsign button:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+
+/*  */
+/*  */
+.alternateSocial {
+  align-self: stretch;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  border-top: 1px solid silver;
+}
+.alternateSocial > p {
+  align-self: center;
+  margin-top: -1.1rem;
+  padding-inline: 0.5rem;
+  width: fit-content;
+  background-color: var(--colorWhite);
+}
+.alternateSocial > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  padding: 0.4rem 0;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+
+.alternateSocial > div p {
+  margin-bottom: 0.4rem;
+  font-size: 1.3rem;
+}
+
+.alternateSocial > div .alternateS {
+  font-size: 1.5rem;
+}
+.alternateSocial > div .alternateS1 {
+  font-size: 1.6rem;
+  color: var(--freqBlue);
+}

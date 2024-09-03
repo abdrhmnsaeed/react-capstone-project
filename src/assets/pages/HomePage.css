@@ -1,0 +1,354 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --FSh1: 4rem;
+  --FSh2: 2.8rem;
+  --FSh3: 2rem;
+  --FSh4: 1.6rem;
+  --FSP: 1.5rem;
+  --FSLi: 1.4rem;
+  --FSbutton: 1.3rem;
+  --colorWhite: white;
+  --colorBlack: black;
+  --freqBlue: rgb(46, 144, 251);
+}
+
+.wholeHome {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+}
+
+.positionEvaded {
+  width: 50%;
+  position: absolute;
+  top: 78vh;
+  left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.positionEvaded div {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  color: black;
+}
+
+.imageHold {
+  width: 9rem;
+  height: 9rem;
+  background-color: var(--freqBlue);
+  border-radius: 5px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.imageHold .dentical {
+  color: var(--colorWhite);
+  font-size: 3rem;
+}
+
+.imageHold p {
+  color: var(--colorWhite);
+}
+
+.wholeHome .displayit {
+  width: 86%;
+  margin: 0 auto;
+  margin-top: 20vh;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2.2rem;
+  justify-content: space-between;
+}
+
+/*  */
+/*  */
+.postionArrows {
+  height: 100%;
+  position: relative;
+  display: flex;
+  gap: 0;
+  justify-content: center;
+  margin: 0 auto;
+  width: 86%;
+}
+.maxWidth {
+  flex: 1;
+}
+
+.arrowrighttt {
+  width: 3rem;
+  position: absolute;
+  color: var(--freqBlue);
+  top: 65%;
+  left: 98%;
+  padding: 0.5rem;
+  background-color: var(--colorWhite);
+  border-radius: 50%;
+}
+.arrowlefttt {
+  width: 3rem;
+  position: absolute;
+  color: var(--freqBlue);
+  top: 65%;
+  left: -0.5%;
+  padding: 0.5rem;
+  background-color: var(--colorWhite);
+  border-radius: 50%;
+}
+
+.ourBlogLeft {
+  left: 1.1%;
+}
+
+.ourBlogRight {
+  left: 96.4%;
+}
+
+/*  */
+/*  */
+
+.static {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.static div {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+}
+
+.staticc {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 4rem;
+}
+
+.staticc div {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+}
+
+.static h2 {
+  font-size: var(--FSh2);
+}
+
+.staticc h2 {
+  font-size: var(--FSh2);
+}
+
+.static p {
+  font-size: var(--FSP);
+}
+
+/* generic */
+.aligntems {
+  display: flex;
+  align-items: center;
+}
+
+.noBreak {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.firstreusable {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.switborder {
+  display: grid;
+  place-content: center;
+  border: 1px solid grey;
+  border-radius: 50%;
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.switborder:hover {
+  color: var(--freqBlue);
+  border: none;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.057),
+    -1px -1px 2px 2px rgba(0, 0, 0, 0.057);
+}
+
+.servix {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.seeThrough {
+  color: transparent;
+}
+
+.partnerLogo {
+  width: 18%;
+  min-width: 150px;
+}
+
+.partnerLogo img {
+  width: 100%;
+  height: auto;
+}
+
+.displayfoot {
+  background-color: rgb(241, 244, 249);
+  width: 100%;
+  padding: 6rem 0;
+  padding-bottom: 3rem;
+}
+
+.displayfoot .fwidth {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8rem;
+}
+
+.displayfoot .fwidth .essentialD1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.noheader {
+  align-self: flex-end;
+}
+
+.displayfoot .fwidth .essentialD1 h2 {
+  font-size: var(--FSh2);
+}
+.displayfoot .fwidth .essentialD1 h4 {
+  font-size: var(--FSh4);
+}
+
+.displayfoot .fwidth .essentialD1 p {
+  font-size: var(--FSP);
+}
+
+.essentialD1 article {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1.5rem;
+}
+
+.essentialD1 ul {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1.5rem;
+  list-style-type: none;
+  font-size: var(--FSLi);
+}
+
+.essentialD1 ul li,
+.essentialD2 ul li {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 0.8rem;
+  color: rgb(12, 12, 12);
+}
+
+.essentialD1 .newsletter {
+  width: 35%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.newsletter .newsLettinput {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--colorBlack);
+  gap: 1.5rem;
+  background-color: white;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.displayfoot .messag {
+  font-size: 1.5rem;
+}
+
+.newsletter .newsLettinput input {
+  flex: 1;
+  background-color: white;
+  border: none;
+  color: var(--colorBlack);
+  outline: none;
+}
+
+.newsletter .newsLettinput button {
+  padding: 0.9rem 2rem;
+  font-size: var(--FSbutton);
+  color: var(--colorWhite);
+  background-color: var(--freqBlue);
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.newsletter .newsLettinput button:hover {
+  filter: brightness(0.9);
+}
+
+.essentialD2 {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.essentialD2 .socialsIcon {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  gap: 1.3rem;
+}
+
+.essentialD2 .socialsIcon .moderateZ {
+  font-size: 2.3rem;
+}
+.essentialD2 .socialsIcon .moderateZz {
+  font-size: 1.8rem;
+}
+
+.essentialD2 .socialsIcon .circ {
+  color: var(--colorWhite);
+  background-color: gray;
+}
+
+.essentialD2 .socialsIcon .fiftyP {
+  border-radius: 50%;
+}

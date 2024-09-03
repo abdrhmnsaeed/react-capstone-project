@@ -1,0 +1,71 @@
+.flexiContain .usericon {
+  width: 2.5rem;
+  color: rgba(46, 145, 251, 0.221);
+}
+
+.flexiContain .checked {
+  width: 1.6rem;
+  color: var(--freqBlue);
+  transform: rotate(20deg);
+}
+
+:root {
+  --FSh1: 4rem;
+  --FSh2: 2.8rem;
+  --FSh3: 2rem;
+  --FSh4: 1.6rem;
+  --FSP: 1.5rem;
+  --FSLi: 1.4rem;
+  --FSbutton: 1.3rem;
+  --colorWhite: white;
+  --colorBlack: black;
+  --freqBlue: rgb(46, 144, 251);
+}
+
+.flexiContain {
+  width: 28%;
+  min-width: 25rem;
+  border: 1px solid silver;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 4rem 2rem;
+}
+
+.flexiContain:hover {
+  transform: scaleY(1.05);
+  box-shadow: 1px 0 20px 2px rgba(192, 192, 192, 0.701);
+}
+
+.flexiContain h2 {
+  font-size: var(--FSh2);
+}
+
+.flexiContain h2 span {
+  font-size: var(--FSbutton);
+}
+
+.flexiContain section {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.flexiContain .butti button {
+  width: 100%;
+  padding: 0.9rem 2rem;
+  font-size: var(--FSbutton);
+  color: var(--freqBlue);
+  background-color: rgba(46, 145, 251, 0.1);
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.flexiContain .butti button:hover {
+  color: var(--colorBlack);
+  background-color: var(--freqBlue);
+}

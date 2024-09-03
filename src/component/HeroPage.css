@@ -1,0 +1,106 @@
+:root {
+  --FSh1: 4rem;
+  --FSh2: 2.8rem;
+  --FSh3: 2rem;
+  --FSh4: 1.6rem;
+  --FSP: 1.5rem;
+  --FSLi: 1.4rem;
+  --FSbutton: 1.3rem;
+  --colorWhite: white;
+  --colorBlack: black;
+  --freqBlue: rgb(46, 144, 251);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.landingP {
+  height: 85vh;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  background-image: url("src/images/events.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.middleText {
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  justify-content: center;
+  gap: 10vh;
+  color: var(--colorWhite);
+}
+
+.middleText h1 {
+  font-size: var(--FSh1);
+  line-height: 2;
+  text-align: center;
+}
+
+.middleText p {
+  font-size: var(--FSP);
+  text-align: center;
+}
+
+.middleText .form {
+  background-color: var(--colorWhite);
+  width: 65vw;
+  margin: 0 auto;
+  padding: 0.7rem;
+  border-radius: 70px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: var(--colorWhite);
+}
+
+.selectHolder {
+  background-color: var(--colorWhite);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* background-color: antiquewhite; */
+  gap: 1rem;
+}
+.selectHolder .filterS {
+  background-color: var(--colorWhite);
+  color: var(--colorBlack);
+  width: 17vw;
+  padding: 1rem;
+  border: none;
+  border-left: 1px solid black;
+  outline: none;
+}
+
+#num1 {
+  border: none;
+}
+
+.containButt {
+  width: 8vw;
+}
+
+.containButt button {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 70px;
+  border: none;
+  background-color: var(--freqBlue);
+}
+
+.containButt button:hover {
+  filter: brightness(0.9);
+}

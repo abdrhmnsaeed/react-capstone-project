@@ -1,0 +1,47 @@
+:root {
+  --FSh1: 4rem;
+  --FSh2: 2.8rem;
+  --FSh3: 2rem;
+  --FSh4: 1.6rem;
+  --FSP: 1.5rem;
+  --FSLi: 1.4rem;
+  --FSbutton: 1.3rem;
+  --colorWhite: white;
+  --colorBlack: black;
+  --freqBlue: rgb(46, 144, 251);
+}
+
+.containerr {
+  height: 30rem;
+  width: 31%;
+  min-width: 25rem;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: bisque;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.445),
+    rgba(0, 0, 0, 0.04)
+  );
+  color: var(--colorWhite);
+  background-image: url("src/images/highrise1.jpg");
+  background-size: cover;
+}
+
+.containerr .inner {
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+p {
+  font-size: var(--FSP);
+}
+
+h3 {
+  font-size: var(--FSh3);
+  text-align: left;
+}

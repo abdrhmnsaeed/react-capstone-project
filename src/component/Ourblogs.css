@@ -1,0 +1,108 @@
+:root {
+  --FSh1: 4rem;
+  --FSh2: 2.8rem;
+  --FSh3: 2rem;
+  --FSh4: 1.6rem;
+  --FSP: 1.5rem;
+  --FSLi: 1.4rem;
+  --FSbutton: 1.3rem;
+  --colorWhite: white;
+  --colorBlack: black;
+  --freqBlue: rgb(46, 144, 251);
+}
+
+.blogscontain {
+  background-image: url("src/images/events.jpg");
+  background-size: cover;
+  height: 40rem;
+  width: 30%;
+  min-width: 25rem;
+  border: 1px solid;
+  border-radius: 5px;
+  /* background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.445),
+    rgba(0, 0, 0, 0.2)
+  ); */
+  color: var(--colorWhite);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.blogscontainmodi {
+  width: 30%;
+  min-width: 30rem;
+
+  border-radius: 5px;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.445),
+    rgba(0, 0, 0, 0.2)
+  );
+  color: var(--colorWhite);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-bottom: 3rem;
+  box-shadow: 1px 1px 20px 8px rgba(0, 0, 0, 0.15),
+    -1px -1px 20px 8px rgba(0, 0, 0, 0.15);
+}
+.blogscontainmodi figure.donablogimg {
+  width: 100%;
+}
+.blogscontainmodi figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+.blogscontainmodi > div {
+  padding: 0 2rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: left;
+  flex-flow: column nowrap;
+  gap: 1.5rem;
+}
+.blogscontainmodi .blgbgimg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blgbgimg > div {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.blgbgimg > div > p {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.kumushare {
+  font-size: 1.4rem;
+}
+
+.blogmartp {
+  margin-top: 0.3rem;
+}
+/*  */
+/*  */
+/*  */
+h4 {
+  font-size: var(--FSh4);
+}
+
+p {
+  font-size: var(--FSP);
+  text-align: left;
+}
+
+h3 {
+  font-size: var(--FSh3);
+  text-align: left;
+}

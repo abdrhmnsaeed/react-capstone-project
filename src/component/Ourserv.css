@@ -1,0 +1,66 @@
+:root {
+  --FSh1: 4rem;
+  --FSh2: 2.8rem;
+  --FSh3: 2rem;
+  --FSh4: 1.6rem;
+  --FSP: 1.5rem;
+  --FSLi: 1.4rem;
+  --FSbutton: 1.3rem;
+  --colorWhite: white;
+  --colorBlack: black;
+  --freqBlue: rgb(46, 144, 251);
+}
+
+.buildi {
+  width: 4rem;
+  height: 4rem;
+}
+
+.containerOurserv {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 26%;
+  gap: 3rem;
+
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 4rem 2.2rem;
+}
+
+.containerOurserv p {
+  line-height: 1.5;
+}
+
+.Ourserve {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.Ourserve span {
+  padding: 1.3rem;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+
+.Ourserve span:hover {
+  background-color: rgba(46, 145, 251, 0.1);
+}
+
+.containerOurserv button.button {
+  padding: 0.7rem 2rem;
+  font-size: var(--FSbutton);
+  color: var(--colorBlack);
+  background-color: transparent;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid grey;
+}
+
+.containerOurserv button:hover {
+  background-color: var(--freqBlue);
+  color: var(--colorWhite);
+  border: 1px solid transparent;
+}

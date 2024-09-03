@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --FSh1: 4rem;
+  --FSh2: 2.8rem;
+  --FSh3: 2rem;
+  --FSh4: 1.6rem;
+  --FSP: 1.5rem;
+  --FSLi: 1.4rem;
+  --FSbutton: 1.3rem;
+  --colorWhite: white;
+  --freqBlue: rgb(46, 144, 251);
+  --colorBlack: black;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--colorWhite);
+  font-size: var(--FSLi);
+  padding: 1.5rem 2rem;
+}
+
+nav .logoHolder {
+  width: 5rem;
+  height: 3rem;
+  box-shadow: 2px 2px 50px 2px white;
+}
+
+nav .logoHolder img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: brightness(1.5);
+}
+
+nav div {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navul1,
+.navul2 {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  list-style-type: none;
+}
+.firmpp {
+  width: 3rem;
+  height: 3rem;
+  display: block;
+}
+
+.firmpp img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid silver;
+}
+
+.navul1 .first {
+  color: var(--freqBlue);
+}
+
+#pagesS,
+#listsS {
+  background-color: transparent;
+  border: none;
+}
+
+.noBreak {
+  white-space: nowrap;
+}
+
+.encirclebell {
+  padding: 0.7rem;
+  border: 1px solid var(--colorWhite);
+  position: relative;
+  border-radius: 50%;
+}
+
+.noBreak sup {
+  display: grid;
+  place-content: center;
+  position: absolute;
+  text-align: center;
+  top: -0.2rem;
+  right: -0.4rem;
+  display: block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-color: red;
+  color: var(--colorWhite);
+  border-radius: 50%;
+}
+
+.icon {
+  width: 2rem;
+}
+
+.navbutton {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
