@@ -1,5 +1,5 @@
 import React from "react";
-import "../component/NavBar.css";
+import "./NavBar.css";
 import { BellAlertIcon } from "@heroicons/react/24/solid";
 import Logobott from "/src/images/robot.jpg";
 

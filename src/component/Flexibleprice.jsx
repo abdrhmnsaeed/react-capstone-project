@@ -1,6 +1,6 @@
 import React from "react";
 import { UserIcon, CheckIcon } from "@heroicons/react/24/solid";
-import "../component/Flexibleprice.css";
+import "./Flexibleprice.css";
 
 function FlexiblePrice() {
   return (

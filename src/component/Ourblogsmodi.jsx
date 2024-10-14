@@ -1,8 +1,8 @@
 import React from "react";
-import "../component/Ourblogs.css";
+import "./Ourblogs.css";
 import { BiMessageDetail } from "react-icons/bi";
 import { LuShare2 } from "react-icons/lu";
-import Events from "../../src/images/events.jpg";
+import Events from "../images/events.jpg";
 
 function OurBlogsModi() {
   return (

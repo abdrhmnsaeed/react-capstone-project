@@ -1,5 +1,5 @@
 import React from "react";
-import "../component/Explore.by.category.css";
+import "./Explore.by.category.css";
 
 function ExploByCate() {
   return (
