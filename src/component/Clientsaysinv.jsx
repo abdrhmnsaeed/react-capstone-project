@@ -1,5 +1,5 @@
 import React from "react";
-import "./ClientSays.css";
+import "../css/ClientSays.css";
 import { StarIcon } from "@heroicons/react/24/solid";
 
 function ClientSaysInv() {

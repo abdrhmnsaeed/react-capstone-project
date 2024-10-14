@@ -1,5 +1,5 @@
 import React from "react";
-import "../component/Ourserv.css";
+import "../css/Ourserv.css";
 import { BuildingLibraryIcon } from "@heroicons/react/24/solid";
 import { SpeakerWaveIcon } from "@heroicons/react/24/solid";
 

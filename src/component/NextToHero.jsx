@@ -6,7 +6,7 @@ import {
   ArrowPathIcon,
   HeartIcon,
 } from "@heroicons/react/24/solid";
-import "./NextToHero.css";
+import "../css/NextToHero.css";
 
 function NextTo() {
   return (

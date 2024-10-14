@@ -1,5 +1,5 @@
 import React from "react";
-import "./Listingbyarea.css";
+import "../css/Listingbyarea.css";
 import { MapPinIcon } from "@heroicons/react/24/solid";
 
 function ListingByArea() {

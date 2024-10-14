@@ -1,5 +1,5 @@
 import React from "react";
-import "./Ourblogs.css";
+import "../css/Ourblogs.css";
 import { BiMessageDetail } from "react-icons/bi";
 import { LuShare2 } from "react-icons/lu";
 import Events from "../images/events.jpg";

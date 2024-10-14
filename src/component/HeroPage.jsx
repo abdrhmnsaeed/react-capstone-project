@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar.jsx";
-import "./HeroPage.css";
+import "../css/HeroPage.css";
 import { AcademicCapIcon } from "@heroicons/react/24/solid";
 
 function HeroPage() {
